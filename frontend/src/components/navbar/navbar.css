@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);  
 }
 
 .nav-log{
@@ -39,6 +40,11 @@
     cursor: pointer;
 }
 
+/* .nav-menu hr{
+    color: red;
+    height: 2px;
+} */
+
 .nav-login-cart {
     display: flex;
     align-items: center;
@@ -52,10 +58,31 @@
     font: 20px;
     background: white;
     cursor: pointer;
+    gap: 20px;
     font-weight: 300;
 
 }
+
+.nav-login-cart button:active{
+    background-color: whitesmoke;
+}
+
 .nav-login-cart img {
     width: 30px;
     height: auto;
+}
+
+/* display chart count */
+.nav-cart-count {
+    width: 18px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    margin-left: -40px;
+    border-radius: 10px;
+    font-size: 15px;
+    background: red;
+    color: white;
 }

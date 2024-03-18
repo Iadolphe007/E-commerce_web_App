@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './navbar.css'
 import logo from '../images/logo.png'
 import cartIcon from '../images/cartIcon.png'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
+ //set the state of  the selected page 
+  const [menu, setMenu] = useState("home");
+
   return (
     <div className='navbar'>
       <div className='nav-log'>
@@ -11,16 +15,17 @@ const Navbar = () => {
         <p>E-market</p>
       </div>
       <ul className="nav-menu">
-        <li>Home</li>
-        <li>Mens Wear</li>
-        <li>Womens Wear</li>
-        <li>Electronics</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li onClick={() => {setMenu('home')}}><Link to='/' style={{textDecoration: 'none'}}>Home</Link>{menu==='home'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('mens')}}><Link style={{textDecoration: 'none'}} to='/mens'>Mens Wear</Link>{menu==='mens'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('womens')}}><Link style={{textDecoration: 'none'}} to='womens'>Womens Wear</Link>{menu==='womens'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('electronics')}}><Link style={{textDecoration: 'none'}} to='electronics'>Electronics</Link>{menu==='electronics'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('about')}}><Link style={{textDecoration: 'none'}} to='about'>About</Link>{menu==='about'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('contact')}}><Link style={{textDecoration: 'none'}} to='contact'>Contact</Link>{menu==='contact'?<hr/>:<></>}</li>
       </ul>
       <div className="nav-login-cart">
-      <img src={cartIcon} alt="" />
-        <button>Login</button>
+        <Link style={{textDecoration: 'none'}} to='/login'><button>Login</button></Link>
+        <Link style={{textDecoration: 'none'}} to='/cart'><img src={cartIcon} alt=""/></Link>
+        <div className="nav-cart-count">0</div>
       </div>
     </div>
   )
