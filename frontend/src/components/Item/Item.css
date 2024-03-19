@@ -4,6 +4,7 @@
 
 .item p {
     margin: 6px 0px;
+    margin-left: 200px;
 }
 
 .tem-prices{
@@ -12,12 +13,19 @@
 }
 
 .item-price-new{
-    color: black;
-    font-weight: 500;
-    font: 20px;
+    color: rgb(131, 2, 2);
+    font-weight: 600;
+    font: 40px;
 }
 
-.item:hove{
+.item:hover{
     transform: scale(1.05);
     transition: 0.6s;
+}
+
+.item img{
+    width: 300px; 
+    height: 350px;
+    margin-left: 200px;
+    gap: 20px;
 }
