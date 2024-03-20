@@ -1,5 +1,5 @@
 .newsletter{
-    width: 55%;
+    width: 75%;
     height: 40vh;
     display: flex;
     flex-direction: column;
@@ -7,12 +7,10 @@
     justify-content: center;
     margin: auto;
     margin-bottom: 70px;
-    /* margin: 300px auto 70px; */
     padding: 0px 140px;
-    /* background: linear-gradient(180deg, rgb(247, 214, 214), rgb(254, 160, 243, 0.3) 90%); */
     gap: 30px;
     /* border-radius: 20px; */
-    background: linear-gradient(180deg, rgb(61, 60, 61, 0.4),  white 30%);
+    background: linear-gradient(180deg, rgb(61, 60, 61, 0.4),  white 100%);
 }
 
 .newsletter h1{
@@ -31,10 +29,9 @@
     align-items: center;
     justify-content: space-between;
     background: white;
-    width: 350px;
+    width: 400px;
     height: 40px;
     border-radius: 60px;
-    /* border: 1px solid white; */
 }
 
 .newsletter input{
@@ -44,10 +41,11 @@
     outline: none;
     font-family: Poppins;
     font-size: 15px;
+    text-align: center;
 }
 
 .newsletter div button{
-    width: 110px;
+    width: 130px;
     height: 40px;
     border-radius: 60px;
     background: rgb(64, 63, 63);
