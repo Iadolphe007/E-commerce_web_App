@@ -1,5 +1,5 @@
 
-let all_product = [
+let all_products = [
     {
         id:1,
         title:"Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
@@ -317,5 +317,4 @@ let all_product = [
     // }
 ];
 
-export default all_product;
-
+export default all_products;
