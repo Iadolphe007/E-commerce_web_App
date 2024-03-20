@@ -11,10 +11,10 @@ const Popular = () => {
       <div className='popular-item'>
         {data_product.map((item, i) =>{
           return <Item 
-          key={i} 
-          id={item.id} 
-          name={item.title} 
-          image={item.image} 
+          key={i}
+          id={item.id}
+          name={item.title}
+          image={item.image}
           price={item.price}/>
         })}
       </div>
