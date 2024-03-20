@@ -15,12 +15,13 @@ const Navbar = () => {
         <p>E-market</p>
       </div>
       <ul className="nav-menu">
-        <li onClick={() => {setMenu('home')}}><Link to='/' style={{textDecoration: 'none'}}>Home</Link>{menu==='home'?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu('mens')}}><Link style={{textDecoration: 'none'}} to='/mens'>Mens Wear</Link>{menu==='mens'?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu('womens')}}><Link style={{textDecoration: 'none'}} to='womens'>Womens Wear</Link>{menu==='womens'?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu('electronics')}}><Link style={{textDecoration: 'none'}} to='electronics'>Electronics</Link>{menu==='electronics'?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu('about')}}><Link style={{textDecoration: 'none'}} to='about'>About</Link>{menu==='about'?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu('contact')}}><Link style={{textDecoration: 'none'}} to='contact'>Contact</Link>{menu==='contact'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('home')}}><Link to='/' style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}}>Home</Link>{menu==='home'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('mens')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='/mens'>Mens Wear</Link>{menu==='mens'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('womens')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='womens'>Womens Wear</Link>{menu==='womens'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('electronics')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} 
+          to='electronics'>Electronics</Link>{menu==='electronics'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('about')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='about'>About</Link>{menu==='about'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('contact')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='contact'>Contact</Link>{menu==='contact'?<hr/>:<></>}</li>
       </ul>
       <div className="nav-login-cart">
         <Link style={{textDecoration: 'none'}} to='/login'><button>Login</button></Link>

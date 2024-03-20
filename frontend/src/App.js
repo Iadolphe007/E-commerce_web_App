@@ -8,7 +8,7 @@ import ShopCategory from './pages/ShopCategory';
 import Product from './pages/product';
 import Cart from './pages/cart';
 import Login from './pages/Login';
-
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -30,6 +30,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
+        <Footer />
       </BrowserRouter>
     </div>
   );

@@ -306,15 +306,15 @@ let all_product = [
         rating:{"rate":3.6,"count":157}
     },
 
-    {
-        id: 21,
-        title: "",
-        price: "",
-        category: "",
-        description: "",
-        image: "",
-        rating:{"rate":3.6,"count":145}
-    }
+    // {
+    //     id: 21,
+    //     title: "",
+    //     price: "",
+    //     category: "",
+    //     description: "",
+    //     image: "",
+    //     rating:{"rate":3.6,"count":145}
+    // }
 ];
 
 export default all_product;

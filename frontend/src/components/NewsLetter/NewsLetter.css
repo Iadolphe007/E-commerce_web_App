@@ -9,7 +9,6 @@
     margin-bottom: 70px;
     padding: 0px 140px;
     gap: 30px;
-    /* border-radius: 20px; */
     background: linear-gradient(180deg, rgb(61, 60, 61, 0.4),  white 100%);
 }
 
@@ -41,7 +40,6 @@
     outline: none;
     font-family: Poppins;
     font-size: 15px;
-    text-align: center;
 }
 
 .newsletter div button{

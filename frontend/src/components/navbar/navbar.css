@@ -38,12 +38,9 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    /* text-decoration: none; */
+    font-weight: 600;
 }
-
-/* .nav-menu hr{
-    color: red;
-    height: 2px;
-} */
 
 .nav-login-cart {
     display: flex;
@@ -62,7 +59,10 @@
     font-weight: 300;
 
 }
-
+.nav-login-cart button:hover{
+    color: white;
+    background: black;
+}
 .nav-login-cart button:active{
     background-color: whitesmoke;
 }

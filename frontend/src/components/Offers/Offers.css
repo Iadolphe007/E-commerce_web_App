@@ -3,7 +3,7 @@
     height: 65vh;
     display: flex;
     margin: 200px auto 50px;
-    background: linear-gradient(120deg, rgb(71, 72, 72), white 80%);
+    background: linear-gradient(160deg, rgb(71, 72, 72), white 60%);
     border-radius: 15px;
     padding: 20px; 
 }
