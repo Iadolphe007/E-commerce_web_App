@@ -4,11 +4,12 @@
     align-items: center;
     gap: 10px;
     height: 90vh;
+    margin-top: 30px;
 }
 
 .relatedproducts h1{
-    color: slateblue;
-    font-size: 50px;
+    color: rgb(44, 44, 44);
+    font-size: 25px;
     font-weight: 600;
 }
 .relatedproducts-item{
@@ -18,7 +19,7 @@
 }
 
 .relatedproducts hr{
-    width: 200px;
-    height: 6px;
+    width: 120px;
+    height: 1px;
     background: black;
 }

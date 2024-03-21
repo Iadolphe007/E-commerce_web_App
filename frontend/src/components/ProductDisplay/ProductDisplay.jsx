@@ -32,7 +32,7 @@ const ProductDisplay = (props) => {
         <div className="productdisplay-right-description">{product.description}</div>
         <div className="productdisplay-right-size">
           <h1>Select size</h1>
-          <div className="productdisplay-right-size">
+          <div className="productdisplay-right-size-size">
             <div>S</div>
             <div>M</div>
             <div>L</div>
