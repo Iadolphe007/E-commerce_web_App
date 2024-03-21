@@ -1,5 +1,5 @@
 import React from 'react'
-// import './productDisplay.css'
+import './ProductDisplay.css'
 import star_icon from '../images/star_icon.png'
 import stardull_icon from '../images/stardull_icon.png'
 
@@ -11,21 +11,19 @@ const ProductDisplay = (props) => {
         <div className="productdeslay-img-list">
           <img src={product.image} alt="" />
           <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
-          <img src={product.image} alt="" />
         </div>
         <div className="productdisplay-img">
-          <img className='product display-main-img' src={product.image} alt="" />
+          <img className='productdisplay-main-img' src={product.image} alt="" />
         </div>
       </div>
       <div className="productdisplay-right">
-        <h1>{product.name}</h1>
-        <div className="productdisplay-right-start">
-          <img src={star_icon} alt="" />
-          <img src={star_icon} alt="" />
-          <img src={star_icon} alt="" />
-          <img src={star_icon} alt="" />
+        <h1>{product.title}</h1>
+        <div className="productdisplay-right-star">
           <img src={stardull_icon} alt="" />
+          <img src={stardull_icon} alt="" />
+          <img src={stardull_icon} alt="" />
+          <img src={star_icon} alt="" />
+          <img src={star_icon} alt="" />
           <p>{product.rating.rate}</p>
         </div>
         <div className="productdisplay-right-prices">
