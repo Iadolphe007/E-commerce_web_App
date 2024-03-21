@@ -6,7 +6,7 @@ import { ShopContext } from '../../context/ShopContext'
 
 const ProductDisplay = (props) => {
   const {product} = props;
-  const {addTocart} = useContext(ShopContext)
+  const {addToCart} = useContext(ShopContext)
   return (
     <div className='productdisplay'>
       <div className="productdisplay-left">
@@ -42,8 +42,7 @@ const ProductDisplay = (props) => {
             <div>XXL</div>
           </div>
         </div>
-        <button onClick={()=>{addTocart(product.id)}}>ADD TO CART</button>
-        {/* <p className='product-display-right-category'></p> */}
+        <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
       </div>
     </div>
   )

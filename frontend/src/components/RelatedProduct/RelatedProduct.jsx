@@ -3,7 +3,7 @@ import './RelatedProduct.css'
 import data_product from '../images/data'
 import Item from '../Item/Item'
 
-const RelatedProduct = () => {
+const RelatedProduct = (props) => {
   return (
     <div className='relatedproducts'>
       <h1>Related Products</h1>
