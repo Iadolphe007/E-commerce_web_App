@@ -1,11 +1,17 @@
-.loginsignup{
+:root{
+    --color-btn: #A52A2A;
+    --primary-text-color: #C0C0C0;
+    --secondary-text-color: #696969;
+    ---border-btn: rgba(172, 172, 172, 0.3);
+}
+
+.login{
     width: 100%;
     height: 80vh;
     background: white;
-    /* padding-top: 100px; */
 }
 
-.loginsignup-container {
+.login-container {
     width: 580px;
     height: 600px;
     background: white;
@@ -13,32 +19,32 @@
     padding: 40px 60px;
 }
 
-.loginsignup-container h1{
+.login-container h1{
     margin: 20px 0px;
 }
 
-.loginsignup-fields{
+.login-fields{
     display: flex;
     flex-direction: column;
     gap: 29px;
     margin-top: 30px;
 }
 
-.loginsignup-fields input{
-    height: 50px;
-    width: 80%;
+.login-fields input{
+    height: 40px;
+    width: 70%;
     padding-left: 20px;
-    border: 1px solid rgb(173, 172, 172, 0.4);
+    border: 1px solid var(---border-btn);
     outline: none;
-    color: rgb(95, 95, 96);
+    color: var(--primary-text-color);
     font-family: 18px;
 }
 
-.loginsignup-container button{
-    width: 490px;
-    height: 45px;
+.login-container button{
+    width: 75%;
+    height: 40px;
     color: white;
-    background: rgb(251, 86, 86);
+    background-color: var(--color-btn);
     margin-top: 30px;
     border: none;
     font-size: 24px;
@@ -46,24 +52,16 @@
     cursor: pointer;
 }
 
-.loginsignup-login{
+.signup-login{
     margin-top: 20px;
-    color: rgb(95, 95, 96);
+    color: var(--secondary-text-color);
     font-size: 15px;
     font-weight: 500;
 }
 
-.loginsignup-login span{
+
+.login-link{
     color: rgb(251, 86, 86);
     font-weight: 600;
-}
-
-.loginsignup-agree {
-    display: flex;
-    align-items: center;
-    margin-top: 25px;
-    gap: 20px;
-    color: rgb(95, 95, 96);
-    font-size: 15px;
-    font-weight: 500;
+    text-decoration: none;
 }
