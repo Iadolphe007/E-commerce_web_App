@@ -13,7 +13,9 @@ const Signup = () => {
                 <input type="password" placeholder='Password' />
                 <input type="password" placeholder='confirm Password' />
             </div>
-            <button>Login</button>
+            <button onClick={() => {
+              alert("Sign up failed-backend not implemented")
+            }}>Sign Up</button>
             <p className="signup-login">Arleady have an account<span> <Link to='/login' className='signup-link'>Login Here</Link></span></p>
         </div>
     </div>

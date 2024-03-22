@@ -7,15 +7,15 @@ const CartItem = () => {
     const {getTotalCartAmount, all_products, cartItems, removeFromCart} = useContext(ShopContext)
     return (
         <div className='cartitems'>
-            {/* <div className="cartimes-format-main">
+            <div className="cartimes-format-title">
                 <p>Products</p>
                 <p>Title</p>
                 <p>Price</p>
                 <p>Quantity</p>
                 <p>Total</p>
                 <p>Remove</p>
-            </div> */}
-            {/* <hr /> */}
+            </div> 
+             <hr />
             {all_products.map((e) => {
                 if(cartItems[e.id]>0) {
                     return <div>
@@ -36,21 +36,21 @@ const CartItem = () => {
                 <div className="cartitems-total">
                     <h1>Cart Totals</h1>
                     <div>
-                        <div className="cartitems-total-tem">
+                        <div className="cartitems-total-item">
                             <p>Sub-total</p>
                             <p>${getTotalCartAmount()}</p>
                         </div>
                         <hr />
-                        <div className='cartitems-total-tem'>
+                        <div className='cartitems-total-item'>
                             <p>Special Discount</p>
                             <p>0</p>
                         </div>
                         <hr />
-                        <div className='cartitems-total-tem'>
+                        <div className='cartitems-total-item'>
                             <h3>Total</h3>
                             <h3>${getTotalCartAmount()}</h3>
                         </div>
-                        <button>MAKE PAYMENT</button>
+                        <button onClick={() => {alert("Sorry can't proceed with payment now")}}>MAKE PAYMENT</button>
                     </div>
                 </div>
             </div>

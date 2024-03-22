@@ -12,7 +12,9 @@ const Login = () => {
           <input type="email" placeholder='Email Address' />
           <input type="password" placeholder='Password' />
         </div>
-        <button>Login</button>
+        <button onClick={() => {
+              alert("Sign in failed-backend not implemented")
+            }}>Login</button>
         <p className="signup-login">Don’t have an account<span> <Link to='/signup' className='login-link'>SignUp Here</Link></span></p>
       </div>
       
