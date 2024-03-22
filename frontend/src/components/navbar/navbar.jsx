@@ -18,8 +18,8 @@ const Navbar = () => {
       </div>
       <ul className="nav-menu">
         <li onClick={() => {setMenu('home')}}><Link to='/' style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}}>Home</Link>{menu==='home'?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu('mens')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='/mens'>Mens Wear</Link>{menu==='mens'?<hr/>:<></>}</li>
-        <li onClick={() => {setMenu('womens')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='womens'>Womens Wear</Link>{menu==='womens'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('mens')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='/mens'>Mens category</Link>{menu==='mens'?<hr/>:<></>}</li>
+        <li onClick={() => {setMenu('womens')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='womens'>Womens category</Link>{menu==='womens'?<hr/>:<></>}</li>
         <li onClick={() => {setMenu('electronics')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} 
           to='electronics'>Electronics</Link>{menu==='electronics'?<hr/>:<></>}</li>
         <li onClick={() => {setMenu('about')}}><Link style={{textDecoration: 'none', color: 'rgb(18, 83, 5)'}} to='about'>About</Link>{menu==='about'?<hr/>:<></>}</li>

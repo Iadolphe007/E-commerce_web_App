@@ -14,6 +14,7 @@ import women_banner from './components/images/women_banner.png'
 import electonic_banner from './components/images/electronic_banner.png'
 import about_banner from './components/images/about_banner.png'
 import contact_banner from './components/images/contact_banner.png'
+import Signup from './components/signup/signup';
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
           <Route/>
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/login' element={<Login/>}/>
+          <Route path='/signup' element={<Signup/>}/>
+          {/* <Route path='/signup' element{<Signup/>}/> */}
           <Route path='/about' element={<About/>}/>
           <Route path='/contact' element={<Contact/>}/>
 
