@@ -7,20 +7,20 @@ const CartItem = () => {
     const {getTotalCartAmount, all_products, cartItems, removeFromCart} = useContext(ShopContext)
     return (
         <div className='cartitems'>
-            <div className="cartimes-format-main">
+            {/* <div className="cartimes-format-main">
                 <p>Products</p>
                 <p>Title</p>
                 <p>Price</p>
                 <p>Quantity</p>
                 <p>Total</p>
                 <p>Remove</p>
-            </div>
-            <hr />
+            </div> */}
+            {/* <hr /> */}
             {all_products.map((e) => {
                 if(cartItems[e.id]>0) {
                     return <div>
                         <div className="cartitems-format cartitems-format-main">
-                            <img src={e.image} alt="" className='cartincon-product-icon'/>
+                            <img src={e.image} alt="" className='carticon-product-icon'/>
                             <p>{e.title}</p>
                             <p>${e.price}</p>
                             <button className='cartitems-quantity'>{cartItems[e.id]}</button>
@@ -42,8 +42,8 @@ const CartItem = () => {
                         </div>
                         <hr />
                         <div className='cartitems-total-tem'>
-                            <p>shipping Fee</p>
-                            <p>Free</p>
+                            <p>Special Discount</p>
+                            <p>0</p>
                         </div>
                         <hr />
                         <div className='cartitems-total-tem'>
