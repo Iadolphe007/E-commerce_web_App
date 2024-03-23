@@ -10,18 +10,20 @@ import logo from '../images/logo.png'
 const Footer = () => {
   return (
     <div className='footer'>
-      <div className="footer-logo">
+      {/* <div className="footer-logo">
         <img src={logo} alt="" />
         <p>E-market</p>
-      </div>
+      </div> */}
       <ul className='footer-links'>
         <li>Products</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>Refund Policy</li>
+        <li>Track your order</li>
+        <li>Feedback</li>
+        <li> privacy Policy</li>
+        <li>Terms and conditions</li>
       </ul>
       <div className='newsletter'>
-        <h1>Get Exclusice Offers On your Email</h1>
-        <p>Subscribe to our newsletter and stay updated</p>
+        <h1>Subscribe with Email</h1>
         <div>
             <input type="email" placeholder='your email adress' />
             <button>Subscribe</button>
@@ -29,24 +31,24 @@ const Footer = () => {
       </div>
       <div className="footer-social-icon">
         <div className="footer-icon-container">
-            <img src={instagram_icon} alt="" />
+            <a href="#" target="_blank"><img src={instagram_icon} alt="" /></a>
         </div>
         <div className="footer-icon-container">
-            <img src={twitter_icon} alt="" />
+            <a href="https://twitter.com/iadolphe007" target="_blank"><img src={twitter_icon} alt="" /></a>
         </div>
         <div className="footer-icon-container">
-            <img src={email_icon} alt="" />
+            <a href="#" target="_blank"><img src={email_icon} alt="" /></a>
         </div>
         <div className="footer-icon-container">
-            <img src={linked_icon} alt="" />
+            <a href="https://www.linkedin.com/in/imanishimwe-adolphe-b14623250/" target="_blank"><img src={linked_icon} alt="" /></a>
         </div>
         <div className="footer-icon-container">
-            <img src={github_icon} alt="" />
+            <a href="https://github.com/Iadolphe007" target="_blank"><img src={github_icon} alt="" /></a>
         </div>
       </div>
       <div className="footer-copyright">
             <hr />
-            <p>Copyright @2024 - All right reserved</p>
+            <p>©2024 - All right reserved</p>
         </div>
     </div>
   )
