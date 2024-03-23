@@ -4,6 +4,17 @@
     display: flex;
 }
 
+:root{
+    --color-btn: #A52A2A;
+    --primary-text-color: #2F4F4F;
+    --secondary-text-color: #696969;
+    --border-btn:  1px solid  rgba(172, 172, 172, 0.3);
+    --btn-text-color: #000000;
+    --hr-color: rgb(152, 151, 151, 0.4);
+
+    --product-box-shadow: -7px 13px 13px -7px rgba(60, 59, 59, 0.4);
+}
+
 .hero-left{
     flex: 1;
     display: flex;
@@ -14,27 +25,13 @@
     line-height: 1.1;
 }
 
-.hero-left h2{
-    color: black;
-    font-size: 20px;
-    font: 600;
-}
-
 .hero-left p{
     color: black;
-    font-size: 70px;
-    font-weight: 800;
+    font-size: 60px;
+    font-weight: 600;
+    font-family: "Courier New", Courier, monospace;
+    padding: 15px;
 }
-
-.hero-hand-icon{
-    display: flex;
-    /* align-items: center; */
-    gap: 20px;
-}
-
-/* .hero-hand-icon img{
-    width: 100px;
-} */
 
 .hero-latest-btn{
     display: flex;
@@ -45,8 +42,8 @@
     height: 60px;
     border-radius: 75px;
     margin-top: 30px;
-    background: rgb(247, 46, 79);
-    color: whitesmoke;
+    background: var(--color-btn);
+    color: var(--btn-text-color);
     font-size: 20px;
     font-weight: 500;
 }

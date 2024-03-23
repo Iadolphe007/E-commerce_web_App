@@ -1,13 +1,14 @@
 let data_product = [ 
     {
         id: 31,
-        title: "Colibrì Fendi shoes",
+        title: "Shoe High-heeled footwear Stiletto heel",
         price: 100,
         category: "womens",
         description: "Colibrì slingbacks with elastic ribbons around the foot. The sole is finished with rubber inserts. Made of tech mesh fabric with FF print. Finished with contrasting heat seals and two-tone ribbon straps",
-        image: "https://blog.theluxurycloset.com/wp-content/uploads/2021/06/luxury-women-fendi-used-shoes-p395181-006-768x768.jpg",
-        rating:{"rate":3.6,"count":156}
+        image: "https://castamere.com/cdn/shop/products/1-1_2a6cf15e-3ebd-484f-a5b2-4efa50095a85.jpg?v=1607050323",
+        rating:{rate:3.6, count:156}
     },
+
 
     {
         id: 32,
