@@ -1,3 +1,17 @@
+:root{
+    --color-btn: #A52A2A;
+    --primary-text-color: #2F4F4F;
+    --secondary-text-color: #696969;
+    --border-btn:  1px solid  rgba(172, 172, 172, 0.3);
+    --btn-text-color: #000000;
+    --hr-color: rgb(152, 151, 151, 0.4);
+
+    --product-box-shadow: -7px 13px 13px -7px rgba(60, 59, 59, 0.4);
+    /* --procuct-title:  */
+}
+
+
+
 .relatedproducts{
     display: flex;
     flex-direction: column;
@@ -8,7 +22,7 @@
 }
 
 .relatedproducts h1{
-    color: rgb(44, 44, 44);
+    color: var(--secondary-text-color);
     font-size: 25px;
     font-weight: 600;
 }
@@ -16,10 +30,12 @@
   margin: 50px;
   display: flex;
   gap: 30px;
+  box-shadow: var(--product-box-shadow);
+  padding-top: 10px;
 }
 
 .relatedproducts hr{
-    width: 120px;
+    width: 125px;
     height: 1px;
-    background: black;
+    background: var(--hr-color);
 }

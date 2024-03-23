@@ -8,7 +8,6 @@ const Hero = () => {
     <div className='hero'>
       <div className="hero-left">
         <h2>NEW ARRIVALS</h2>
-        {/* hand icon div */}
         <div>
             <div className="hero-hand-icon">
                 <p>new</p>
@@ -18,7 +17,7 @@ const Hero = () => {
             <p>for everyone</p>
         </div> 
         <div className="hero-latest-btn">
-            <div>latest collection</div>
+            <div>Top sales</div>
             <img src={arrow_icon} alt="" />
         </div>
       </div>

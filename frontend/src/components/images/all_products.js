@@ -93,7 +93,7 @@ let all_products = [
     {
         id:10,
         title:"SanDisk SSD PLUS 1TB Internal SSD - SATA III 6 Gb/s",
-        price:109,
+        price:78,
         description:"Easy upgrade for faster boot up, shutdown, application load and response.",
         category:"electronics",image:"https://fakestoreapi.com/img/61U7T1koQqL._AC_SX679_.jpg",
         rating:{rate:2.9, count:470}
@@ -111,7 +111,7 @@ let all_products = [
     {
         id:12,
         title:"WD 4TB Gaming Drive Works with Playstation 4 Portable External Hard Drive",
-        price:114,
+        price:84,
         description:"Expand your PS4 gaming experience, Play anywhere Fast and easy, setup Sleek design with high capacity, 3-year manufacturer's limited warranty",category:"electronics",
         image:"https://fakestoreapi.com/img/61mtL65D4cL._AC_SX679_.jpg",
         rating:{rate:4.8, count:400}
@@ -288,11 +288,11 @@ let all_products = [
 
     {
         id: 31,
-        title: "Colibrì",
-        price: 1500,
+        title: "Shoe High-heeled footwear Stiletto heel",
+        price: 100,
         category: "womens",
         description: "Colibrì slingbacks with elastic ribbons around the foot. The sole is finished with rubber inserts. Made of tech mesh fabric with FF print. Finished with contrasting heat seals and two-tone ribbon straps",
-        image: "https://static.fendi.com/dam/isimagefendi/8J6851A8UGF1MXR_01?wid=1224&hei=1224&bgc:253253253",
+        image: "https://castamere.com/cdn/shop/products/1-1_2a6cf15e-3ebd-484f-a5b2-4efa50095a85.jpg?v=1607050323",
         rating:{rate:3.6, count:156}
     },
 
