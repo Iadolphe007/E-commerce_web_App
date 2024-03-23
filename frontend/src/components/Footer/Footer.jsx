@@ -5,15 +5,10 @@ import twitter_icon from '../images/twitter_icon.png'
 import email_icon from '../images/email_icon.png'
 import linked_icon from '../images/linkedin_icon.png'
 import github_icon from '../images/github_icon.png'
-import logo from '../images/logo.png'
 
 const Footer = () => {
   return (
     <div className='footer'>
-      {/* <div className="footer-logo">
-        <img src={logo} alt="" />
-        <p>E-market</p>
-      </div> */}
       <ul className='footer-links'>
         <li>Products</li>
         <li>Refund Policy</li>
@@ -31,19 +26,19 @@ const Footer = () => {
       </div>
       <div className="footer-social-icon">
         <div className="footer-icon-container">
-            <a href="#" target="_blank"><img src={instagram_icon} alt="" /></a>
+            <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
         </div>
         <div className="footer-icon-container">
-            <a href="https://twitter.com/iadolphe007" target="_blank"><img src={twitter_icon} alt="" /></a>
+            <a href="https://twitter.com/iadolphe007" target="_blank" rel="noreferrer"><img src={twitter_icon} alt="" /></a>
         </div>
         <div className="footer-icon-container">
-            <a href="#" target="_blank"><img src={email_icon} alt="" /></a>
+            <a href="https://google.com" target="_blank" rel="noreferrer"><img src={email_icon} alt="" /></a>
         </div>
         <div className="footer-icon-container">
-            <a href="https://www.linkedin.com/in/imanishimwe-adolphe-b14623250/" target="_blank"><img src={linked_icon} alt="" /></a>
+            <a href="https://www.linkedin.com/in/imanishimwe-adolphe-b14623250/" target="_blank" rel="noreferrer"><img src={linked_icon} alt="" /></a>
         </div>
         <div className="footer-icon-container">
-            <a href="https://github.com/Iadolphe007" target="_blank"><img src={github_icon} alt="" /></a>
+            <a href="https://github.com/Iadolphe007" target="_blank" rel="noreferrer"><img src={github_icon} alt="" /></a>
         </div>
       </div>
       <div className="footer-copyright">
