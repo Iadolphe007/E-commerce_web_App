@@ -13,23 +13,23 @@ const ContactPage = () => {
         <img src={contact_banner} alt="" />
         <div className="socials">
             <div className="footer-icon-container">
-                <a href={instagram_icon} target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
+                <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
             </div>
             <div className="footer-icon-container">
-                <a href={twitter_icon} target="_blank" rel="noreferrer"><img src={twitter_icon} alt="" /></a>
+                <a href="https://www.twitter.com" target="_blank" rel="noreferrer"><img src={twitter_icon} alt="" /></a>
             </div>
             <div className="footer-icon-container">
                 <a href="https://google.com" target="_blank" rel="noreferrer"><img src={email_icon} alt="" /></a>
             </div>
             <div className="footer-icon-container">
-                <a href="https://www.linkedin.com/in/imanishimwe-adolphe-b14623250/" target="_blank" rel="noreferrer"><img src={linked_icon} alt="" /></a>
+                <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><img src={linked_icon} alt="" /></a>
             </div>
             <div className="footer-icon-container">
-                <a href="https://github.com/Iadolphe007" target="_blank" rel="noreferrer"><img src={github_icon} alt="" /></a>
+                <a href="https://github.com/" target="_blank" rel="noreferrer"><img src={github_icon} alt="" /></a>
             </div>
             </div>
         <div>
-            <h4>get in touch with our socials or use you email</h4>
+            <h4>get in touch with our socials or contact via email</h4>
         </div>
     </div>
   )
