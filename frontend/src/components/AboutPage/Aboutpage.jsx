@@ -8,7 +8,6 @@ const Aboutpage = () => {
     <div className='about-page'>
         <div>
             <img src={about_banner} alt="" />
-            <h1>About Us</h1>
             <p>
                  <span>Welcome, your go-to destination for all your shopping needs!</span>
             </p>

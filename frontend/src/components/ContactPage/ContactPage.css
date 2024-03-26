@@ -1,0 +1,40 @@
+:root{
+    --color-btn: #A52A2A;
+    --primary-text-color: #2F4F4F;
+    --secondary-text-color: #696969;
+    --border-btn:  1px solid  rgba(172, 172, 172, 0.3);
+    --btn-text-color: #000000;
+    --hr-color: rgb(152, 151, 151, 0.4);
+    --product-box-shadow: -7px 13px 13px -7px rgba(60, 59, 59, 0.4);
+}
+
+.contactPage {
+    margin: 20px;
+}
+
+.contactPage h4{
+    margin: 20px;
+    display: flex; 
+    justify-content: center;
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+}
+
+.contactPage img{
+    height: 350px;
+    width: 35%;
+}
+
+.socials{
+    display: flex;
+    margin: 50px 50px 50px 200px;
+    justify-content: space-evenly;
+
+}
+
+.socials img {
+    width: 100%;
+}
+
+
+  
