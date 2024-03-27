@@ -29,22 +29,22 @@ To run [Your E-Commerce Web App Name] locally, follow these steps:
 
 1. Clone the repository:
 
-git clone https://github.com/your-username/your-e-commerce-web-app.git
+        git clone https://github.com/your-username/your-e-commerce-web-app.git
 
 
 2. Navigate to the project directory:
 
-cd your-e-commerce-web-app
+        cd your-e-commerce-web-app
 
 
 3. Install dependencies:
 
-npm install
+        npm install
 
 
 4. Start the development server:
 
-npm start
+        npm start
 
 
 5. Open your web browser and visit `http://localhost:3000` to view the app.
