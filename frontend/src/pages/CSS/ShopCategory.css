@@ -40,4 +40,6 @@
     row-gap: 80px;
     padding: 20px;
     box-shadow: var(--product-box-shadow);
+    max-width: 100%;
+    overflow:auto;
 }
