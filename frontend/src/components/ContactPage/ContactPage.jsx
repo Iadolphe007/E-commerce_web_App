@@ -11,26 +11,26 @@ const ContactPage = () => {
   return (
     <div className='contactPage'>
         <img src={contact_banner} alt="" />
-        <h1>Meet the Developers</h1>
+        <h1>Developers</h1>
         <p>Hello there! 👋 We're Imanishimwe Adolphe and Mutaganda Elysee, a dynamic duo of full-stack developers passionate about crafting exceptional digital experiences.</p>
         <div className='developer'>
             <h2>About Imanishimwe Adolphe</h2>
             <p>I'm Imanishimwe Adolphe, a dedicated full-stack developer with a keen eye for frontend design and a knack for backend architecture. With a strong foundation in JavaScript, HTML, and CSS, I specialize in bringing creative ideas to life through intuitive user interfaces and robust backend systems.</p>
             <div className="socials">
                 <div className="footer-icon-container">
-                    <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
+                    <a href="https://www.instagram.com/adolph_07/" target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
                 </div>
                 <div className="footer-icon-container">
-                    <a href="https://www.twitter.com" target="_blank" rel="noreferrer"><img src={twitter_icon} alt="" /></a>
+                    <a href="https://twitter.com/iadolphe007" target="_blank" rel="noreferrer"><img src={twitter_icon} alt="" /></a>
                 </div>
                 <div className="footer-icon-container">
-                    <a href="https://google.com" target="_blank" rel="noreferrer"><img src={email_icon} alt="" /></a>
+                    <a href="mailto:iadolphe007@gmail.com" target="_blank" rel="noreferrer"><img src={email_icon} alt="" /></a>
                 </div>
                 <div className="footer-icon-container">
-                    <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><img src={linked_icon} alt="" /></a>
+                    <a href="https://www.linkedin.com/in/imanishimwe-adolphe-b14623250/" target="_blank" rel="noreferrer"><img src={linked_icon} alt="" /></a>
                 </div>
                 <div className="footer-icon-container">
-                    <a href="https://github.com/" target="_blank" rel="noreferrer"><img src={github_icon} alt="" /></a>
+                    <a href="https://github.com/Iadolphe007" target="_blank" rel="noreferrer"><img src={github_icon} alt="" /></a>
                 </div>
             </div>
         </div>

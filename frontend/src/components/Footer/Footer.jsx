@@ -29,13 +29,13 @@ const Footer = () => {
         <p>Imanishimwe Adolphe</p>
         <div className="footer-social-icon">
           <div className="footer-icon-container">
-              <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
+              <a href="https://www.instagram.com/adolph_07/" target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
           </div>
           <div className="footer-icon-container">
               <a href="https://twitter.com/iadolphe007" target="_blank" rel="noreferrer"><img src={twitter_icon} alt="" /></a>
           </div>
           <div className="footer-icon-container">
-              <a href="mailto:imanishimwe@gmail.com" target="_blank" rel="noreferrer"><img src={email_icon} alt="" /></a>
+              <a href="mailto:iadolphe007@gmail.com" target="_blank" rel="noreferrer"><img src={email_icon} alt="" /></a>
           </div>
           <div className="footer-icon-container">
               <a href="https://www.linkedin.com/in/imanishimwe-adolphe-b14623250/" target="_blank" rel="noreferrer"><img src={linked_icon} alt="" /></a>
