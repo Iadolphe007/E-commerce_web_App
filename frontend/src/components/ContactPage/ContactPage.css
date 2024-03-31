@@ -12,12 +12,18 @@
     margin: 20px;
 }
 
-.contactPage h4{
+.contactPage h4, p{
     margin: 20px;
     display: flex; 
     justify-content: center;
     color: var(--secondary-text-color);
     margin-bottom: 20px;
+}
+.contactPage .developer {
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
 }
 
 .contactPage img{
@@ -29,7 +35,6 @@
     display: flex;
     margin: 50px 50px 50px 200px;
     justify-content: space-evenly;
-
 }
 
 .socials img {
