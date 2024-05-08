@@ -24,9 +24,7 @@ const Footer = () => {
             <button>Subscribe</button>
         </div>
       </div>
-      <p>Developers</p>
       <div>
-        <p>Imanishimwe Adolphe</p>
         <div className="footer-social-icon">
           <div className="footer-icon-container">
               <a href="https://www.instagram.com/adolph_07/" target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
@@ -42,26 +40,6 @@ const Footer = () => {
           </div>
           <div className="footer-icon-container">
               <a href="https://github.com/Iadolphe007" target="_blank" rel="noreferrer"><img src={github_icon} alt="" /></a>
-          </div>
-        </div>
-      </div>
-      <div>
-        <p>Mutaganda Elysee</p>
-        <div className="footer-social-icon">
-          <div className="footer-icon-container">
-              <a href="https://www.instagram.com/mutagandaelysee?igsh=eW90d2dnMHR5djF1" target="_blank" rel="noreferrer"><img src={instagram_icon} alt="" /></a>
-          </div>
-          <div className="footer-icon-container">
-              <a href="https://x.com/MutagandaElysee?t=f34YZEq-6EJCn0alFEmwag&s=09" target="_blank" rel="noreferrer"><img src={twitter_icon} alt="" /></a>
-          </div>
-          <div className="footer-icon-container">
-              <a href="mailto:mutagandaelysee2@gmail.com" target="_blank" rel="noreferrer"><img src={email_icon} alt="" /></a>
-          </div>
-          <div className="footer-icon-container">
-              <a href="https://www.linkedin.com/in/mutagandaelysee2/" target="_blank" rel="noreferrer"><img src={linked_icon} alt="" /></a>
-          </div>
-          <div className="footer-icon-container">
-              <a href="https://github.com/M-Elysee" target="_blank" rel="noreferrer"><img src={github_icon} alt="" /></a>
           </div>
         </div>
       </div>
